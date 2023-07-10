@@ -10,7 +10,7 @@ import { useSelector } from 'react-redux';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <AppContent />
     </Router>
   );
